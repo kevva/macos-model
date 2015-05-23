@@ -37,6 +37,11 @@ $ osx-model --help
 ```
 
 
+## Related
+
+* [osx-info](https://github.com/gillstrom/osx-info) - Get info about your Mac
+
+
 ## License
 
 MIT © [Kevin Martensson](http://github.com/kevva)
