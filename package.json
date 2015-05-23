@@ -1,0 +1,36 @@
+{
+  "name": "osx-model",
+  "version": "1.0.0",
+  "description": "Get your Mac model",
+  "license": "MIT",
+  "repository": "kevva/osx-model",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "app",
+    "cli",
+    "cli-app",
+    "info",
+    "mac",
+    "model",
+    "osx"
+  ],
+  "dependencies": {
+    "osx-info": "^0.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  }
+}
