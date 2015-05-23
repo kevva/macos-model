@@ -1,6 +1,6 @@
 {
   "name": "osx-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get your Mac model",
   "license": "MIT",
   "repository": "kevva/osx-model",
