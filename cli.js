@@ -8,7 +8,7 @@ meow({
 		'Example',
 		'  $ osx-model',
 		'  MacBook Pro (Retina, 15-inch, Mid 2014)'
-	].join('\n')
+	]
 });
 
 osxModel(function (err, model) {

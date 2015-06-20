@@ -30,7 +30,7 @@
     "osx"
   ],
   "dependencies": {
-    "meow": "^3.1.0",
+    "meow": "^3.3.0",
     "osx-info": "^0.0.2"
   },
   "devDependencies": {
