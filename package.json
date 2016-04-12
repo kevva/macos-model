@@ -10,7 +10,7 @@
     "url": "github.com/kevva"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "bin": "cli.js",
   "scripts": {
@@ -31,7 +31,7 @@
   ],
   "dependencies": {
     "meow": "^3.3.0",
-    "osx-info": "^0.0.2"
+    "osx-info": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^0.0.4",

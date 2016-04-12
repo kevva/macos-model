@@ -1,5 +1,8 @@
 sudo: false
 language: objective-c
+before_install:
+  - brew update
+  - brew unlink node
 install: brew install node
 script:
   - npm install

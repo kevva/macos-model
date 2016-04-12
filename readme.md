@@ -13,9 +13,9 @@ $ npm install --save osx-model
 ## Usage
 
 ```js
-var osxModel = require('osx-model');
+const osxModel = require('osx-model');
 
-osxModel(function (err, model) {
+osxModel().then(model => {
 	console.log(model);
 	//=> 'MacBook Pro (Retina, 15-inch, Mid 2014)'
 });

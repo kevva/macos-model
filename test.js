@@ -3,10 +3,9 @@ var test = require('ava');
 var osxModel = require('./');
 
 test(function (t) {
-	t.plan(2);
+	t.plan(1);
 
-	osxModel(function (err, model) {
-		t.assert(!err, err);
+	osxModel().then(function (model) {
 		t.assert(model, model);
 	});
 });

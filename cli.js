@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
-var meow = require('meow');
-var osxModel = require('./');
+const meow = require('meow');
+const osxModel = require('./');
 
 meow({
 	help: [
@@ -11,11 +11,4 @@ meow({
 	]
 });
 
-osxModel(function (err, model) {
-	if (err) {
-		console.error(err.message);
-		process.exit(1);
-	}
-
-	console.log(model);
-});
+osxModel().then(model => console.log(model));
