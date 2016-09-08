@@ -1,9 +1,9 @@
 {
-  "name": "osx-model",
+  "name": "macos-model",
   "version": "1.0.2",
   "description": "Get your Mac model",
   "license": "MIT",
-  "repository": "kevva/osx-model",
+  "repository": "kevva/macos-model",
   "author": {
     "name": "Kevin Martensson",
     "email": "kevinmartensson@gmail.com",
@@ -26,6 +26,7 @@
     "cli-app",
     "info",
     "mac",
+    "macos",
     "model",
     "osx"
   ],

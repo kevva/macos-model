@@ -1,4 +1,4 @@
-# osx-model [![Build Status](https://travis-ci.org/kevva/osx-model.svg?branch=master)](https://travis-ci.org/kevva/osx-model)
+# macos-model [![Build Status](https://travis-ci.org/kevva/macos-model.svg?branch=master)](https://travis-ci.org/kevva/macos-model)
 
 > Get your Mac model
 
@@ -6,16 +6,16 @@
 ## Install
 
 ```
-$ npm install --save osx-model
+$ npm install --save macos-model
 ```
 
 
 ## Usage
 
 ```js
-const osxModel = require('osx-model');
+const macosModel = require('macos-model');
 
-osxModel().then(model => {
+macosModel().then(model => {
 	console.log(model);
 	//=> 'MacBook Pro (Retina, 15-inch, Mid 2014)'
 });
@@ -25,14 +25,14 @@ osxModel().then(model => {
 ## CLI
 
 ```
-$ npm install --global osx-model
+$ npm install --global macos-model
 ```
 
 ```
-$ osx-model --help
+$ macos-model --help
 
   Example
-    $ osx-model
+    $ macos-model
     MacBook Pro (Retina, 15-inch, Mid 2014)
 ```
 
